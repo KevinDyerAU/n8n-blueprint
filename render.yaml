@@ -15,6 +15,7 @@ services:
     # You can give the service any name
     name: n8n-service
     image:
+      # Forcing a fresh pull by updating the blueprint file - 2025-08-17
       # Pulls the n8n image tagged as latest from Docker Hub
       url: docker.io/n8nio/n8n:latest
 
